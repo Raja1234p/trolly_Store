@@ -52,6 +52,9 @@ Orientation orientation = MediaQuery.of(context).orientation;
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         constantWidget.CustomText('Order No. #119', FontWeight.normal, constantWidget.greyColor, 13),
+                        Spacer(),
+                        Icon(Icons.phone),
+                        SizedBox(width: Get.width*0.017,),
                         Icon(Icons.stay_current_landscape)
                       ],
                     ),

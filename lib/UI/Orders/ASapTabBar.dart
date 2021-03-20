@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:trolly_store/Controller/asapController.dart';
 import 'package:trolly_store/UI/Orders/AsapWidget.dart';
+import 'package:trolly_store/UI/Orders/schedule.dart';
 
 import '../../constWidgets.dart';
 
@@ -43,7 +44,7 @@ class ASAP extends StatelessWidget {
       ),
       body: TabBarView(controller: asapController.controller, children: [
       AsapWidegts(),
-        Text('sdksklds'),
+        Schedule(),
       ]),
 
 
